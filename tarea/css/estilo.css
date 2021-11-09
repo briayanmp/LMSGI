@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+}
+
+header #principal{
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #principal nav{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+
+header #principal span{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+header #principal span i{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+header figure{
+    width: 30%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+header figure img{
+    height: 130px;
+    background-color: black;
+}
+
+header #middle{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+}
+
+header #middle nav{
+    width: 70%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+header #middle nav a{
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header #barra{
+    height: 30px;
+    background-color: orange;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+main #middle{
+    height: 600px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main #middle .ordenador {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 28%;
+    
+}
+main #middle .ordenador figure  {
+    width: 100%;
+    margin: auto;
+
+}
+
+main #middle .ordenador figure img {
+    width: 45%;
+
+}
+main #middle .ordenador figure #curalogo {
+    text-align: center;
+}
+main #middle .ordenador figure h3{
+    color: blue;
+}
+main #middle .ordenador figure p{
+    text-align: justify ;
+}

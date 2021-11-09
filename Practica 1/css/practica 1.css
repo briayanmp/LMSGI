@@ -1,0 +1,90 @@
+*{
+    margin-bottom: 0px;
+    box-sizing: border-box;
+}
+
+video{
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-80%) translateY(-94%);
+    z-index: -1;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+.mflex{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    
+}
+
+.mflex a{
+    font-family: 'Stick No Bills', sans-serif;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+    
+}
+.fijo{
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}
+
+.padre{
+    display:grid;
+    grid-auto-flow: column;
+    width: 80%;
+    margin: auto;
+}
+
+footer{
+	padding-top: 10px;
+    width: 100%;
+    color: white;
+	background-image: url(../img/footer-background-mountain.jpg);
+	background-size: 100%;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+
+
+footer h1{
+	color: white; 
+	padding-top: 10px; 
+	margin: 0;
+}
+
+.columnas h1{
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	font-family: fantasy;
+}
+
+.likes{
+	padding-bottom: 50px;
+	text-align: center;
+    padding: 30px;
+	
+}
+
+.dentro{
+    border: solid 1px white;
+	padding: 20px 40px;
+	text-decoration: none;
+	margin-right: 10px;
+}
